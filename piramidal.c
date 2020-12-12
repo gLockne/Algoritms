@@ -61,10 +61,10 @@ void PS(int *m,int d)
         }
     }
     printf("\n");
-    for(int i = 0;i<d;i++)
-    {
-        printf("%d\n",m[i]);
-    }
+    //for(int i = 0;i<d;i++)
+    //{
+    //    printf("%d\n",m[i]);
+    //}
     for(int j = d-1;j>=1;j--)
     {
         r = m[0];

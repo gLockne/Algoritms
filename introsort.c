@@ -61,10 +61,10 @@ void PS(int *m,int d)
         }
     }
     printf("\n");
-    for(int i = 0;i<d;i++)
-    {
-        printf("%d\n",m[i]);
-    }
+    //for(int i = 0;i<d;i++)
+    //{
+    //    printf("%d\n",m[i]);
+    //}
     for(int j = d-1;j>=1;j--)
     {
         r = m[0];
@@ -167,11 +167,6 @@ void QS(int * m, int n, int k, int d, int y)
 void IS(int * m, int d)
 {
     QS(m, 0, d-1, d, 0);
-    printf("\n");
-    for(int i = 0;i<d;i++)
-    {
-        printf("%d\n",m[i]);
-    }
     PS(m, d);
     return;
 }
