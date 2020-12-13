@@ -60,7 +60,7 @@ void PS(int *m,int d)
             }
         }
     }
-    printf("\n");
+    //printf("\n");
     //for(int i = 0;i<d;i++)
     //{
     //    printf("%d\n",m[i]);

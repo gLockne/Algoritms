@@ -7,7 +7,7 @@ for i in range(100):
     inpf = open(inputfile, mode="w")
     inpf.write(str((i+1)*10000)+'\n')
     for j in range((i+1)*10000):
-        x = random.randint(-100, 100)
+        x = random.randint(-10000, 10000)
         inpf.write(str(x)+ " ")
     inpf.close()
     
